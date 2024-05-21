@@ -1,0 +1,190 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial;
+}
+header {
+  text-align: center;
+}
+header .baner {
+  width: 100%;
+  height: 40vh;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+.navigation {
+  background-color: grey;
+  position: relative;
+  top: -10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.navigation a {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: 1s all;
+}
+.navigation a:hover {
+  font-weight: 700;
+  color: blue;
+}
+.card {
+  width: 20%;
+  border-radius: 5px;
+  transition: 1s all;
+  box-shadow: 1px 1px 5px black;
+  display: inline-block;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+.card:hover {
+  box-shadow: 5px 5px 20px black;
+}
+.image img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+}
+.title h1 {
+  font-size: 23px;
+}
+.des {
+  text-align: center;
+}
+.des p span {
+  text-decoration: line-through;
+  color: rgb(115, 115, 115);
+}
+.des a button {
+  width: 100px;
+  border-radius: 5px;
+  padding: 7px;
+  color: black;
+  font-weight: 900;
+  background-color: white;
+  text-transform: capitalize;
+  transition: 1s all;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.des a button:hover {
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+.imf {
+  position: relative;
+  top: 15px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+.imf .dj .daraz {
+  position: relative;
+  left: 120px;
+  height: 50vh;
+  box-shadow: 2px 2px 10px black;
+  transition: 0.5s;
+}
+.imf .dj .daraz:hover {
+  box-shadow: 5px 5px 20px black;
+}
+.imf .dj .dara {
+  height: 24vh;
+  position: relative;
+  left: 120px;
+  bottom: 184px;
+  transition: 0.5s;
+  box-shadow: 2px 2px 10px black;
+}
+.imf .dj .dara:hover {
+  box-shadow: 5px 5px 20px black;
+}
+.imf .dj .dara2 {
+  height: 25vh;
+  position: relative;
+  width: 330px;
+  left: -213px;
+  box-shadow: 5px 5px 10px black;
+  transition: 0.5s;
+}
+.imf .dj .dara2:hover {
+  box-shadow: 5px 5px 20px black;
+}
+footer {
+  margin-top: 40px;
+  width: 100%;
+  background-color: rgba(167, 166, 166, 0.738);
+  color: #000000;
+  padding: 100px 0 30px;
+}
+.row {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.col {
+  flex-basis: 25%;
+  padding: 10px;
+}
+.col h3 {
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+}
+.email {
+  width: fit-content;
+  border-bottom: 1px solid black;
+  margin: 20px 0;
+}
+.icon {
+  position: relative;
+  top: 4px;
+}
+.col ul li a {
+  text-decoration: none;
+  color: black;
+}
+.col ul li a:hover {
+  color: #5d5d5d;
+}
+.col ul li {
+  list-style-type: none;
+}
+.col .sicons {
+  position: relative;
+  top: 20px;
+  display: flex;
+  gap: 10px;
+}
+.col .sicons .logo-facebook {
+  width: 40px;
+  height: 40px;
+  color: rgb(67, 67, 235);
+}
+.col .sicons .logo-insta {
+  width: 40px;
+  height: 40px;
+  color: rgb(171, 12, 171);
+}
+.col .sicons .logo-whatsapp {
+  width: 40px;
+  height: 40px;
+  color: green;
+}
+.col .sicons .logo-shop {
+  width: 40px;
+  height: 40px;
+  color: blue;
+}
